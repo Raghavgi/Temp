@@ -4,8 +4,6 @@ import lombok.extern.slf4j.Slf4j;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-import java.io.File;
-
 @Slf4j
 public class SelectDriver {
 
@@ -44,11 +42,13 @@ public class SelectDriver {
 
     public static WebDriver getFirefoxDriver()
     {
-        File resourcesDirectory = new File("src/test/resources");
-        resourcesDirectory.getAbsolutePath();
-        String path = resourcesDirectory.getAbsolutePath() + "\\drivers\\geckodriver.exe";
+//        File resourcesDirectory = new File("src/test/resources");
+//        resourcesDirectory.getAbsolutePath();
+//        String path = resourcesDirectory.getAbsolutePath() + "\\drivers\\geckodriver.exe";
     //setting relative path
-        System.setProperty("webdriver.gecko.driver",path);
+//        System.setProperty("webdriver.gecko.driver",path);
+
+        System.setProperty("webdriver.gecko.driver","/Users/vishnupatlolla/IdeaProjects/geckodriver");
         WebDriver driver = new FirefoxDriver();
 
         return driver;

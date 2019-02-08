@@ -1,4 +1,4 @@
-package com.steps.ui;
+package com.steps;
 
 import com.utilities.webDriver.DriverFactory;
 import cucumber.api.Scenario;
@@ -21,7 +21,8 @@ public class PicoHooks extends DriverFactory {
     public void after()
     {
         logger.info("scenario ended");
-        driver.quit();
+//        driver.quit();
+        driver.close();
     }
 
 }

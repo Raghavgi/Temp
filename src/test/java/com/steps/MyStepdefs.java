@@ -1,4 +1,4 @@
-package com.steps.ui;
+package com.steps;
 
 import com.pages.calculatorPage.CalculatorPage;
 import com.pages.homePage.HomePage;

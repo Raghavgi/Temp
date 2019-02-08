@@ -1,4 +1,4 @@
-package com.steps.ui;
+package com.steps;
 
 import com.pages.homePage.HomePage;
 import com.utilities.webDriver.DriverFactory;
