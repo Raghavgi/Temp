@@ -14,7 +14,6 @@ public class HomePage extends BasePage<HomePage> {
     WebElement loansBtn;
 
 
-
     //*[@id="nav-secondaire"]/div[1]/ul/li[4]/ul/li[2]/section[1]/ul/li[2]/a
     //*[@id="nav-secondaire"]/div[1]/ul/li[4]/a/span
    private WebDriver driver;

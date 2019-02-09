@@ -109,7 +109,12 @@ public class CalculatorPage extends BasePage<CalculatorPage> {
 
     public Boolean validateResults()
     {
-       return waitUtils.getElementAfterShortWait(result).isDisplayed();
+        try {
+            return waitUtils.getElementAfterShortWait(result).isDisplayed();
+        }catch (NoSuchElementException e)
+        {
+            return false;
+        }
     }
 
 

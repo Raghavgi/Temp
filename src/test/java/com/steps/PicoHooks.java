@@ -14,15 +14,16 @@ public class PicoHooks extends DriverFactory {
     @Before
     public void before(Scenario scenario)
     {
-        logger.info("Scenario Started");
+        logger.info("Scenario Started"+scenario.getName());
     }
 
     @After
-    public void after()
+    public void after(Scenario scenario)
     {
-        logger.info("scenario ended");
-//        driver.quit();
-        driver.close();
+        logger.info("scenario ended"+scenario.getName());
+        driver.quit();
+        driver = null;
+//        driver.close();
     }
 
 }

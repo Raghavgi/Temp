@@ -29,15 +29,12 @@ public class SelectDriver {
     {
         WebDriver driver = null;
 
-        switch (browser.toLowerCase())
-        {
-            case "chrome":
-               return null;
-            case "safari":
-               return null;
-           default:
-             return getFirefoxDriver();
+        if ("chrome".equals(browser.toLowerCase())) {
+            return null;
+        } else if ("safari".equals(browser.toLowerCase())) {
+            return null;
         }
+        return getFirefoxDriver();
     }
 
     public static WebDriver getFirefoxDriver()
