@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5510948966,
+              "duration": 5091960130,
               "status": "passed"
             },
             "line": 4,
@@ -23,7 +23,7 @@
           },
           {
             "result": {
-              "duration": 2097232120,
+              "duration": 2009753085,
               "status": "passed"
             },
             "line": 5,
@@ -39,7 +39,7 @@
         "before": [
           {
             "result": {
-              "duration": 4545074136,
+              "duration": 4590748342,
               "status": "passed"
             },
             "match": {
@@ -47,14 +47,14 @@
             }
           }
         ],
-        "line": 8,
+        "line": 9,
         "name": "UI- Test calculator with valid inputs -1",
         "description": "",
         "id": "mortgage-calculator-test;ui--test-calculator-with-valid-inputs--1",
         "after": [
           {
             "result": {
-              "duration": 658086308,
+              "duration": 699504839,
               "status": "passed"
             },
             "match": {
@@ -67,10 +67,10 @@
         "steps": [
           {
             "result": {
-              "duration": 12834525,
+              "duration": 7098250,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "I am on Calculator page",
             "match": {
               "location": "MyStepdefs.iAmOnCalculatorPage()"
@@ -79,10 +79,10 @@
           },
           {
             "result": {
-              "duration": 271639428,
+              "duration": 296004268,
               "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "I give payment type as purchase price",
             "match": {
               "arguments": [
@@ -97,10 +97,10 @@
           },
           {
             "result": {
-              "duration": 236706527,
+              "duration": 227198431,
               "status": "passed"
             },
-            "line": 11,
+            "line": 12,
             "name": "I give price amount as 250000",
             "match": {
               "arguments": [
@@ -115,10 +115,10 @@
           },
           {
             "result": {
-              "duration": 106950579,
+              "duration": 145467438,
               "status": "passed"
             },
-            "line": 12,
+            "line": 13,
             "name": "I input downpayment amount as 12500",
             "match": {
               "arguments": [
@@ -133,10 +133,10 @@
           },
           {
             "result": {
-              "duration": 74184211,
+              "duration": 125652741,
               "status": "passed"
             },
-            "line": 13,
+            "line": 14,
             "name": "I input interest rate as 2",
             "match": {
               "arguments": [
@@ -151,10 +151,10 @@
           },
           {
             "result": {
-              "duration": 282488564,
+              "duration": 330481801,
               "status": "passed"
             },
-            "line": 14,
+            "line": 15,
             "name": "I click on calculate button",
             "match": {
               "location": "MyStepdefs.iClickOnCalculateButton()"
@@ -163,10 +163,10 @@
           },
           {
             "result": {
-              "duration": 65693654,
+              "duration": 95858916,
               "status": "passed"
             },
-            "line": 15,
+            "line": 16,
             "name": "I should see the result",
             "match": {
               "arguments": [

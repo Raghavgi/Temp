@@ -33,7 +33,7 @@ public class MyStepdefs extends DriverFactory {
     @Given("^I am on Calculator page$")
     public void iAmOnCalculatorPage() {
         calculatorPage.get();
-
+//code implementation
     }
 
     @When("^I give payment type as (.*)$")

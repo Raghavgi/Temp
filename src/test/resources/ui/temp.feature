@@ -2,6 +2,5 @@
 Feature: temp
   # Enter feature description here
 
-  Scenario: temp sce 2
-
+  Scenario: temp
     # Enter steps here
